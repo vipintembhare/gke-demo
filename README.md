@@ -17,6 +17,7 @@ Google Kubernetes Demo with TerraForm
 # Pitfalls
     1. Cannot find the project while executing plan
     -> Make sure the private key used for terraform gcp provider has same project id.
+       https://github.com/hashicorp/terraform/issues/4031
    
      
     
