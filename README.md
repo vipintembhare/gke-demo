@@ -23,5 +23,7 @@ Google Kubernetes Demo with TerraForm
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
+
 [Terraform GKE documentation](https://www.terraform.io/docs/providers/google/r/container_cluster.html)
+
 [GCP Terraform provider](https://www.terraform.io/docs/providers/google/index.html)
