@@ -1,0 +1,298 @@
+{  
+   "format_version":"0.1",
+   "terraform_version":"0.12.4",
+   "values":{  
+      "root_module":{  
+         "resources":[  
+            {  
+               "address":"google_container_cluster.gke-cluster",
+               "mode":"managed",
+               "type":"google_container_cluster",
+               "name":"gke-cluster",
+               "provider_name":"google",
+               "schema_version":1,
+               "values":{  
+                  "additional_zones":[  
+
+                  ],
+                  "addons_config":[  
+                     {  
+                        "horizontal_pod_autoscaling":[  
+
+                        ],
+                        "http_load_balancing":[  
+
+                        ],
+                        "kubernetes_dashboard":[  
+                           {  
+                              "disabled":true
+                           }
+                        ],
+                        "network_policy_config":[  
+                           {  
+                              "disabled":true
+                           }
+                        ]
+                     }
+                  ],
+                  "cluster_autoscaling":[  
+
+                  ],
+                  "cluster_ipv4_cidr":"10.56.0.0/14",
+                  "description":"",
+                  "enable_binary_authorization":null,
+                  "enable_intranode_visibility":null,
+                  "enable_kubernetes_alpha":false,
+                  "enable_legacy_abac":false,
+                  "enable_tpu":null,
+                  "endpoint":"35.195.86.157",
+                  "id":"my-first-gke-cluster",
+                  "initial_node_count":3,
+                  "instance_group_urls":[  
+                     "https://www.googleapis.com/compute/v1/projects/lyrical-bolt-246610/zones/europe-west1-b/instanceGroups/gke-my-first-gke-cluster-default-pool-e0a9b782-grp"
+                  ],
+                  "ip_allocation_policy":[  
+
+                  ],
+                  "location":"europe-west1-b",
+                  "logging_service":"logging.googleapis.com",
+                  "maintenance_policy":[  
+
+                  ],
+                  "master_auth":[  
+                     {  
+                        "client_certificate":"",
+                        "client_certificate_config":[  
+                           {  
+                              "issue_client_certificate":false
+                           }
+                        ],
+                        "client_key":"",
+                        "cluster_ca_certificate":"LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRZVRyRUh4OTNiSWxYVk1VMURSbG1LakFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlRM05XRmtNalUyTXkweE1EQm1MVFJsT1dJdE9HSmhaQzB3TVdGbVpERTFZbUk0TUdJdwpIaGNOTVRrd056RXpNVEV5T0RVM1doY05NalF3TnpFeE1USXlPRFUzV2pBdk1TMHdLd1lEVlFRREV5UTNOV0ZrCk1qVTJNeTB4TURCbUxUUmxPV0l0T0dKaFpDMHdNV0ZtWkRFMVltSTRNR0l3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUM5eW1RZjNKZFQ0bDJXZ3VRZ3ptMmZZemh0Uy90cXJRTk1EMmVwbFVnRwpGeUk1am43VmlBRDhvekFqRENJY24ra0UveStvN2lsWmdReXQwcmtOa2I0dUVIZFB6TWF3elFjdFhPVWs0UmxCCnJXR3hXa2tHajh4akgrRTN1NHhaSkdESE1WZHlsUUM1RTF5WWhPQXNDL3RaVlU1a3B4aHdXQmRIaUlqY2IyWkgKOWxReDBDV3lmRXpWWHNWQUQxaXZ1cGRrUFc2NW9qNGhnaDZlVk1aaEpCdUFlMGJZSytiZkV2VURLNnV1WExTYwpxWFM1MVA5SXNrM1pEZ05IUUV6U041NFFJWVo5Tk1zR0hHKzk3WWdOdnFZSUdaNzZ3QndFWWNMbjFEUXFGMzVjCkZYYVVMNFd5WTFtVWd1dnA0YXFwNThoVFo4Zlo1SVV4VHJmdzlYRmdaMHc3QWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFDRwpkSDlpaGIxSkxWUkdPaDJPTytRaXptUlUvbHpGWEhSbUZyUWVGQ3lWWWNiMFphcHVYNVZaa0xESU9mOWhKcUJvClo4cjV3SU5JSnp0NVBjLy9TdTBxcy9sNW8yZzQvRHZld1Jnd215WktHcCtiRXMycWt6TXNYYzFuSUlPNG5DbkYKc0pybEd1QkplOC8xSnZycjlYM0RocWJLb2xDM1NxT1RGclplTGJtWWtsczUxVVQ4d25FeDdtUnVnejYvcUVJWgp5eEJyUlhsZm0zWlZUdW5nbG5MaXRYdDBPc0ZDaEtKRFlFK0c3ekdNSXhoMmNkOE02OFpjemxyTzRZNHp1V0JkCnEzK0t5SnZMSElBZURwdjFyS1lCdlNMMDRISU1KbUt2T1M0WnZIQTluOEdlQVdBNm9kbVBXZHRzL2d4YjJvNFMKUlZkdEtIN2o3Sks2VHBXeDBlQmIKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=",
+                        "password":"",
+                        "username":""
+                     }
+                  ],
+                  "master_authorized_networks_config":[  
+
+                  ],
+                  "master_version":"1.12.8-gke.10",
+                  "min_master_version":null,
+                  "monitoring_service":"monitoring.googleapis.com",
+                  "name":"my-first-gke-cluster",
+                  "network":"projects/lyrical-bolt-246610/global/networks/default",
+                  "network_policy":[  
+                     {  
+                        "enabled":false,
+                        "provider":"PROVIDER_UNSPECIFIED"
+                     }
+                  ],
+                  "node_config":[  
+                     {  
+                        "disk_size_gb":100,
+                        "disk_type":"pd-standard",
+                        "guest_accelerator":[  
+
+                        ],
+                        "image_type":"COS",
+                        "labels":{  
+
+                        },
+                        "local_ssd_count":0,
+                        "machine_type":"n1-standard-1",
+                        "metadata":{  
+                           "disable-legacy-endpoints":"true"
+                        },
+                        "min_cpu_platform":"",
+                        "oauth_scopes":[  
+                           "https://www.googleapis.com/auth/devstorage.read_only",
+                           "https://www.googleapis.com/auth/logging.write",
+                           "https://www.googleapis.com/auth/monitoring",
+                           "https://www.googleapis.com/auth/service.management.readonly",
+                           "https://www.googleapis.com/auth/servicecontrol",
+                           "https://www.googleapis.com/auth/trace.append"
+                        ],
+                        "preemptible":false,
+                        "sandbox_config":[  
+
+                        ],
+                        "service_account":"default",
+                        "tags":[  
+
+                        ],
+                        "taint":[  
+
+                        ],
+                        "workload_metadata_config":[  
+
+                        ]
+                     }
+                  ],
+                  "node_locations":[  
+
+                  ],
+                  "node_pool":[  
+                     {  
+                        "autoscaling":[  
+
+                        ],
+                        "initial_node_count":3,
+                        "instance_group_urls":[  
+                           "https://www.googleapis.com/compute/v1/projects/lyrical-bolt-246610/zones/europe-west1-b/instanceGroupManagers/gke-my-first-gke-cluster-default-pool-e0a9b782-grp"
+                        ],
+                        "management":[  
+                           {  
+                              "auto_repair":false,
+                              "auto_upgrade":false
+                           }
+                        ],
+                        "max_pods_per_node":0,
+                        "name":"default-pool",
+                        "name_prefix":"",
+                        "node_config":[  
+                           {  
+                              "disk_size_gb":100,
+                              "disk_type":"pd-standard",
+                              "guest_accelerator":[  
+
+                              ],
+                              "image_type":"COS",
+                              "labels":{  
+
+                              },
+                              "local_ssd_count":0,
+                              "machine_type":"n1-standard-1",
+                              "metadata":{  
+                                 "disable-legacy-endpoints":"true"
+                              },
+                              "min_cpu_platform":"",
+                              "oauth_scopes":[  
+                                 "https://www.googleapis.com/auth/devstorage.read_only",
+                                 "https://www.googleapis.com/auth/logging.write",
+                                 "https://www.googleapis.com/auth/monitoring",
+                                 "https://www.googleapis.com/auth/service.management.readonly",
+                                 "https://www.googleapis.com/auth/servicecontrol",
+                                 "https://www.googleapis.com/auth/trace.append"
+                              ],
+                              "preemptible":false,
+                              "sandbox_config":[  
+
+                              ],
+                              "service_account":"default",
+                              "tags":[  
+
+                              ],
+                              "taint":[  
+
+                              ],
+                              "workload_metadata_config":[  
+
+                              ]
+                           }
+                        ],
+                        "node_count":3,
+                        "version":"1.12.8-gke.10"
+                     }
+                  ],
+                  "node_version":"1.12.8-gke.10",
+                  "pod_security_policy_config":[  
+
+                  ],
+                  "private_cluster_config":[  
+
+                  ],
+                  "project":"lyrical-bolt-246610",
+                  "region":null,
+                  "remove_default_node_pool":null,
+                  "resource_labels":{  
+
+                  },
+                  "services_ipv4_cidr":"10.59.240.0/20",
+                  "subnetwork":"projects/lyrical-bolt-246610/regions/europe-west1/subnetworks/default",
+                  "timeouts":null,
+                  "zone":"europe-west1-b"
+               }
+            },
+            {  
+               "address":"google_container_node_pool.extra-pool",
+               "mode":"managed",
+               "type":"google_container_node_pool",
+               "name":"extra-pool",
+               "provider_name":"google",
+               "schema_version":1,
+               "values":{  
+                  "autoscaling":[  
+
+                  ],
+                  "cluster":"my-first-gke-cluster",
+                  "id":"europe-west1-b/my-first-gke-cluster/extra-node-pool",
+                  "initial_node_count":3,
+                  "instance_group_urls":[  
+                     "https://www.googleapis.com/compute/v1/projects/lyrical-bolt-246610/zones/europe-west1-b/instanceGroupManagers/gke-my-first-gke-clus-extra-node-pool-e309df5f-grp"
+                  ],
+                  "location":"europe-west1-b",
+                  "management":[  
+                     {  
+                        "auto_repair":false,
+                        "auto_upgrade":false
+                     }
+                  ],
+                  "max_pods_per_node":null,
+                  "name":"extra-node-pool",
+                  "name_prefix":"",
+                  "node_config":[  
+                     {  
+                        "disk_size_gb":100,
+                        "disk_type":"pd-standard",
+                        "guest_accelerator":[  
+
+                        ],
+                        "image_type":"COS",
+                        "labels":{  
+
+                        },
+                        "local_ssd_count":0,
+                        "machine_type":"n1-standard-1",
+                        "metadata":{  
+                           "disable-legacy-endpoints":"true"
+                        },
+                        "min_cpu_platform":"",
+                        "oauth_scopes":[  
+                           "https://www.googleapis.com/auth/devstorage.read_only",
+                           "https://www.googleapis.com/auth/logging.write",
+                           "https://www.googleapis.com/auth/monitoring",
+                           "https://www.googleapis.com/auth/service.management.readonly",
+                           "https://www.googleapis.com/auth/servicecontrol",
+                           "https://www.googleapis.com/auth/trace.append"
+                        ],
+                        "preemptible":false,
+                        "sandbox_config":[  
+
+                        ],
+                        "service_account":"default",
+                        "tags":[  
+
+                        ],
+                        "taint":[  
+
+                        ],
+                        "workload_metadata_config":[  
+
+                        ]
+                     }
+                  ],
+                  "node_count":3,
+                  "project":"lyrical-bolt-246610",
+                  "region":null,
+                  "timeouts":null,
+                  "version":"1.12.8-gke.10",
+                  "zone":"europe-west1-b"
+               },
+               "depends_on":[  
+                  "google_container_cluster.gke-cluster"
+               ]
+            }
+         ]
+      }
+   }
+}
