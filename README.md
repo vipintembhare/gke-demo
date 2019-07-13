@@ -28,3 +28,7 @@ Google Kubernetes Demo with TerraForm
 [Terraform GKE documentation](https://www.terraform.io/docs/providers/google/r/container_cluster.html)
 
 [GCP Terraform provider](https://www.terraform.io/docs/providers/google/index.html)
+
+[Setting up Jenkins on Google Kubernetes Engine](https://cloud.google.com/solutions/jenkins-on-kubernetes-engine-tutorial)
+
+[Continuous Deployment to Kubernetes Engine using Jenkins](https://cloud.google.com/solutions/continuous-delivery-jenkins-kubernetes-engine)
