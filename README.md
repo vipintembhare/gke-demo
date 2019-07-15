@@ -21,7 +21,7 @@ Google Kubernetes Demo with TerraForm
     -> Make sure the private key used for terraform gcp provider has same project id.
        https://github.com/hashicorp/terraform/issues/4031
    
-     
+     https://stackoverflow.com/a/50279396
     
 
 # Reads
