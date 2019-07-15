@@ -9,6 +9,8 @@ Google Kubernetes Demo with TerraForm
       terraform plan -out myplan
 
       terraform apply myplan
+      
+      terraform destroy
 
   GCP
       
