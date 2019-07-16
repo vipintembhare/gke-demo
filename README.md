@@ -22,6 +22,8 @@ Google Kubernetes Demo with TerraForm
        https://github.com/hashicorp/terraform/issues/4031
    
      https://stackoverflow.com/a/50279396
+     
+     https://stackoverflow.com/questions/39814680/scopes-required-for-executing-gcloud-container-clusters-create-on-gce-vm-insta
     
 
 # Reads
