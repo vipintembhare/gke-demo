@@ -44,3 +44,7 @@ Google Kubernetes Demo with TerraForm
 [RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
 [HELM charts](https://github.com/helm/charts/tree/master/stable)
+
+[GKE](https://medium.com/@timhberry/deploy-a-highly-available-shared-storage-service-in-google-kubernetes-engine-with-regional-bbc87276c8ea)
+
+[Terraform PipeLine](https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596)
