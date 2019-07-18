@@ -29,6 +29,8 @@ Google Kubernetes Demo with TerraForm
      
      https://stackoverflow.com/questions/39814680/scopes-required-for-executing-gcloud-container-clusters-create-on-gce-vm-insta
     
+    Jenkins Job getting killed
+     https://stackoverflow.com/questions/24989653/jenkins-maven-build-137-error
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
