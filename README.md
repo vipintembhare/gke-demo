@@ -18,7 +18,7 @@ Google Kubernetes Demo with TerraForm
       
   Kubectl
       
-      $ kubectl get pods --selector=<label>
+      $ kubectl get pods --selector=app=<label>
       
 # Pitfalls
     1. Cannot find the project while executing plan
