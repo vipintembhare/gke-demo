@@ -16,6 +16,10 @@ Google Kubernetes Demo with TerraForm
       
       gcloud compute project-info describe --project <project-id>
       
+  Kubectl
+      
+      $ kubectl get pods --selector=<label>
+      
 # Pitfalls
     1. Cannot find the project while executing plan
     -> Make sure the private key used for terraform gcp provider has same project id.
