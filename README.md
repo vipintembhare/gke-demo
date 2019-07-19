@@ -20,6 +20,43 @@ Google Kubernetes Demo with TerraForm
       
       $ kubectl get pods --selector=app=<label>
       
+   Replication Controller
+      
+      kubectl get pods -o wide
+      kubectl get pods/hello-pod
+      kubectl get pods --all-namespaces
+
+      kubectl delete pods/hello-pod
+
+      kubectl create -f rc.yml
+      kubectl get rc -o wide
+      kubectl describe rc
+      kubectl apply -f rc.yml
+
+      kubectl get rc
+      kubectl get pods
+      
+   Kubectl Deployment
+   
+      kubectl apply -f deploy.yml --record
+
+      kubectl rollout status deployments hello-deploy
+
+      kubectl get deploy hello-deploy
+
+      kubectl rollout history deployments hello-deploy
+
+      kubectl get rs
+
+      kubectl describe deploy hello-deploy
+
+      kubectl rollout undo deployment hello-deploy --to-revision=1
+
+      kubectl get deploy
+
+      kubectl rollout status deployments hello-deploy
+      
+      
 # Pitfalls
     1. Cannot find the project while executing plan
     -> Make sure the private key used for terraform gcp provider has same project id.
