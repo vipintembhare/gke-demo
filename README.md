@@ -58,3 +58,5 @@ Google Kubernetes Demo with TerraForm
 [GCR in Jenkins](https://itnext.io/setup-jenkins-with-google-container-registry-2f8d39aaa275)
 
 [GCR in Jenkins](https://medium.com/google-cloud/how-to-push-docker-image-to-google-container-registry-gcr-through-jenkins-job-52b9d5ce9f7f)
+
+[Kubectl deployment](https://cloud.google.com/kubernetes-engine/docs/tutorials/http-balancer)
