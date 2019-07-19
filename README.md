@@ -1,7 +1,7 @@
 # gke-demo
 Google Kubernetes Demo with TerraForm
 
-# Commands used during the demo
+# Commands used
   Terraform
   
       terraform init
