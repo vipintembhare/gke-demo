@@ -97,3 +97,5 @@ Google Kubernetes Demo with TerraForm
 [GCR in Jenkins](https://medium.com/google-cloud/how-to-push-docker-image-to-google-container-registry-gcr-through-jenkins-job-52b9d5ce9f7f)
 
 [Kubectl deployment](https://cloud.google.com/kubernetes-engine/docs/tutorials/http-balancer)
+
+[Istio Multi Burst](https://codelabs.developers.google.com/codelabs/istio-multi-burst/?source=post_page---------------------------#2)
