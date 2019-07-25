@@ -99,3 +99,5 @@ Google Kubernetes Demo with TerraForm
 [Kubectl deployment](https://cloud.google.com/kubernetes-engine/docs/tutorials/http-balancer)
 
 [Istio Multi Burst](https://codelabs.developers.google.com/codelabs/istio-multi-burst/?source=post_page---------------------------#2)
+
+[Config Maps](https://dzone.com/articles/configuring-spring-boot-on-kubernetes-with-configm)
