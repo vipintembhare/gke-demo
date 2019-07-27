@@ -102,6 +102,11 @@ Google Kubernetes Demo with TerraForm
 
 [Config Maps](https://dzone.com/articles/configuring-spring-boot-on-kubernetes-with-configm)
 
+[Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? - Sandeep Dinesh](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
+
+[Ahmet Alp Balkan Blogs](https://medium.com/@ahmetb)
+
+[Kubernetes: troubleshooting ingress and services traffic flows](https://medium.com/@ManagedKube/kubernetes-troubleshooting-ingress-and-services-traffic-flows-547ea867b120)
 
 # Jenkins X
 [Install Jenkins X in GKE](https://jenkins-x.io/getting-started/jenkins-x-gke-install-with-bot/)
