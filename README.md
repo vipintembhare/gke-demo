@@ -68,6 +68,10 @@ Google Kubernetes Demo with TerraForm
     
     Jenkins Job getting killed
      https://stackoverflow.com/questions/24989653/jenkins-maven-build-137-error
+     
+     Exec into Pod, find node and container Id
+     https://stackoverflow.com/a/42805365
+     
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
