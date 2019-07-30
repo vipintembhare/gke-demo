@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    SVC_ACCOUNT_KEY = credentials('gke-jenkins-246915')
+    SVC_ACCOUNT_KEY = credentials('terraform-auth')
   }
 
   stages {
