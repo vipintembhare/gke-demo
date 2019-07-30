@@ -97,7 +97,7 @@ Google Kubernetes Demo with TerraForm
 
 [GKE](https://medium.com/@timhberry/deploy-a-highly-available-shared-storage-service-in-google-kubernetes-engine-with-regional-bbc87276c8ea)
 
-[Terraform PipeLine](https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596)
+[Terraform PipeLine](https://medium.com/@timhberry/terraform-pipelines-in-jenkins-47267129ff06)
 
 [GCR in Jenkins](https://itnext.io/setup-jenkins-with-google-container-registry-2f8d39aaa275)
 
