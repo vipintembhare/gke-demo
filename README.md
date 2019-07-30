@@ -72,6 +72,9 @@ Google Kubernetes Demo with TerraForm
      Exec into Pod, find node and container Id
      https://stackoverflow.com/a/42805365
      
+     Jenkins Master is down
+     https://stackoverflow.com/questions/15112890/jenkins-not-executing-jobs-pending-waiting-for-next-executor
+     
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
