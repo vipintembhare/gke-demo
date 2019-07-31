@@ -130,3 +130,5 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [docker basic](https://docs.docker.com/articles/basics/)
 
 [Jenkins Pipeline](https://www.youtube.com/watch?v=W-kCSO2YyVE)
+
+[jenkins + docker docker image](https://github.com/shazChaudhry/docker-jenkins.git)
