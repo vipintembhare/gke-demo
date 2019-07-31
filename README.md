@@ -115,7 +115,12 @@ Google Kubernetes Demo with TerraForm
 
 [Kubernetes: troubleshooting ingress and services traffic flows](https://medium.com/@ManagedKube/kubernetes-troubleshooting-ingress-and-services-traffic-flows-547ea867b120)
 
+
+
+
 # Jenkins 
 [Install Jenkins X in GKE](https://jenkins-x.io/getting-started/jenkins-x-gke-install-with-bot/)
 
 CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/6/set-cicd-pipeline-jenkins-pod-kubernetes-part-2)
+
+[Configuring docker for Jenkins](https://devopscube.com/jenkins-master-build-slaves-docker-container/)
