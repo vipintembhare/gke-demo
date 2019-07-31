@@ -127,4 +127,6 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 
 [Configuring docker for Jenkins](https://medium.com/@elisegev/build-create-docker-images-continuously-with-jenkins-b64dc717e8f1)
 
+[docker basic](https://docs.docker.com/articles/basics/)
+
 [Jenkins Pipeline](https://www.youtube.com/watch?v=W-kCSO2YyVE)
