@@ -137,3 +137,5 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Helm Install in Jenkins](https://github.com/camptocamp/jenkins-lib-helm/blob/master/src/com/camptocamp/Helm.groovy)
 
 [Kubernetes Pipeline] (https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
+
+[Google Cloud open image registry](https://console.cloud.google.com/gcr/images/cloud-solutions-images/GLOBAL)
