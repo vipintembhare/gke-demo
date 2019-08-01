@@ -152,3 +152,5 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Google Cloud open image registry](https://console.cloud.google.com/gcr/images/cloud-solutions-images/GLOBAL)
 
 [Docker global tool use](https://support.cloudbees.com/hc/en-us/articles/230922468-Pipeline-I-would-like-to-use-Docker-CLI-inside-of-a-Pipeline-job)
+
+[Authenticating with Google Cloud Container Registry](https://cloud.google.com/container-registry/docs/advanced-authentication)
