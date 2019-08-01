@@ -132,3 +132,4 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Jenkins Pipeline](https://www.youtube.com/watch?v=W-kCSO2YyVE)
 
 [jenkins + docker docker image](https://github.com/shazChaudhry/docker-jenkins.git)
+[jenkins + docker docker image 2](https://github.com/cognitiaclaeves/docker-jenkins2-dkr/blob/master/Dockerfile)
