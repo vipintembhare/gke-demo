@@ -77,7 +77,9 @@ Google Kubernetes Demo with TerraForm
      
      ///var/run/docker.sock file not there
      https://stackoverflow.com/questions/28424014/dial-unix-var-run-docker-sock-no-such-file-or-directory-after-upgrading-to-lxc
-     
+    
+     How to expose Docker daemon over TCP
+     https://serverfault.com/questions/843296/how-do-i-expose-the-docker-api-over-tcp
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
