@@ -135,3 +135,5 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [jenkins + docker docker image 2](https://github.com/cognitiaclaeves/docker-jenkins2-dkr/blob/master/Dockerfile)
 
 [Helm Install in Jenkins](https://github.com/camptocamp/jenkins-lib-helm/blob/master/src/com/camptocamp/Helm.groovy)
+
+[Kubernetes Pipeline] (https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
