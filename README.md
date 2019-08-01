@@ -167,4 +167,5 @@ Google Kubernetes Demo with TerraForm
 
 [Docker-in-Docker on Kubernetes 2](https://applatix.com/case-docker-docker-kubernetes-part-2/)
 
-
+[CICD pipeline using Helm](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he)
+[Not use Docker in Docker](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/)
