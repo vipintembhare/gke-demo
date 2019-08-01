@@ -75,6 +75,9 @@ Google Kubernetes Demo with TerraForm
      Jenkins Master is down
      https://stackoverflow.com/questions/15112890/jenkins-not-executing-jobs-pending-waiting-for-next-executor
      
+     ///var/run/docker.sock file not there
+     https://stackoverflow.com/questions/28424014/dial-unix-var-run-docker-sock-no-such-file-or-directory-after-upgrading-to-lxc
+     
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
