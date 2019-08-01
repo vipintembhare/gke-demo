@@ -86,6 +86,9 @@ Google Kubernetes Demo with TerraForm
      https://serverfault.com/questions/843296/how-do-i-expose-the-docker-api-over-tcp
      
      https://serverfault.com/questions/884524/docker-daemon-config-opening-ports-for-dockerd
+     
+     withDockerServer
+     https://stackoverflow.com/questions/43863595/jenkins-pipeline-docker-withserver-does-not-execute-docker-commands-on-rem
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
@@ -132,7 +135,7 @@ Google Kubernetes Demo with TerraForm
 # Jenkins 
 [Install Jenkins X in GKE](https://jenkins-x.io/getting-started/jenkins-x-gke-install-with-bot/)
 
-CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/6/set-cicd-pipeline-jenkins-pod-kubernetes-part-2)
+[CICD  Kubernetes](https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/6/set-cicd-pipeline-jenkins-pod-kubernetes-part-2)
 
 [Configuring docker for Jenkins](https://devopscube.com/jenkins-master-build-slaves-docker-container/)
 
@@ -143,6 +146,7 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Jenkins Pipeline](https://www.youtube.com/watch?v=W-kCSO2YyVE)
 
 [jenkins + docker docker image](https://github.com/shazChaudhry/docker-jenkins.git)
+
 [jenkins + docker docker image 2](https://github.com/cognitiaclaeves/docker-jenkins2-dkr/blob/master/Dockerfile)
 
 [Helm Install in Jenkins](https://github.com/camptocamp/jenkins-lib-helm/blob/master/src/com/camptocamp/Helm.groovy)
@@ -154,6 +158,13 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Docker global tool use](https://support.cloudbees.com/hc/en-us/articles/230922468-Pipeline-I-would-like-to-use-Docker-CLI-inside-of-a-Pipeline-job)
 
 [Authenticating with Google Cloud Container Registry](https://cloud.google.com/container-registry/docs/advanced-authentication)
-
+  [Using plug-in](https://stackoverflow.com/questions/45800883/jenkins-pipeline-build-with-docker-google-registry-and-google-auth-plugin)
 
 [Jenkins] (https://devopscube.com/jenkins-master-build-slaves-docker-container/)
+
+# Helm and Kubernetes in Jenkins
+[Docker-in-Docker on Kubernetes](https://applatix.com/case-docker-docker-kubernetes-part/)
+
+[Docker-in-Docker on Kubernetes 2](https://applatix.com/case-docker-docker-kubernetes-part-2/)
+
+
