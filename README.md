@@ -139,3 +139,5 @@ CICD  Kubernetes (https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2
 [Kubernetes Pipeline] (https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
 
 [Google Cloud open image registry](https://console.cloud.google.com/gcr/images/cloud-solutions-images/GLOBAL)
+
+[Docker global tool use](https://support.cloudbees.com/hc/en-us/articles/230922468-Pipeline-I-would-like-to-use-Docker-CLI-inside-of-a-Pipeline-job)
