@@ -55,7 +55,11 @@ Google Kubernetes Demo with TerraForm
       kubectl get deploy
 
       kubectl rollout status deployments hello-deploy
+   
+  Linux
       
+      ps -ef |grep dockerd
+      find . -name "foo*"
       
 # Pitfalls
     1. Cannot find the project while executing plan
