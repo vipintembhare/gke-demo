@@ -80,6 +80,8 @@ Google Kubernetes Demo with TerraForm
     
      How to expose Docker daemon over TCP
      https://serverfault.com/questions/843296/how-do-i-expose-the-docker-api-over-tcp
+     
+     https://serverfault.com/questions/884524/docker-daemon-config-opening-ports-for-dockerd
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
