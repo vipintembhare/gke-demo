@@ -171,3 +171,5 @@ Google Kubernetes Demo with TerraForm
 [Not use Docker in Docker](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/)
 
 [CI CD with pipelines with Kubernetes](https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
+
+[Kubernetes - Jenkins slaves are offline](https://stackoverflow.com/questions/38486848/kubernetes-jenkins-plugin-slaves-always-offline)
