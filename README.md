@@ -169,3 +169,5 @@ Google Kubernetes Demo with TerraForm
 
 [CICD pipeline using Helm](https://dzone.com/articles/easily-automate-your-cicd-pipeline-with-jenkins-he)
 [Not use Docker in Docker](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/)
+
+[CI CD with pipelines with Kubernetes](https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
