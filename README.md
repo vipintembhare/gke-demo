@@ -192,4 +192,6 @@ Google Kubernetes Demo with TerraForm
 
 [Kubernetes CI CD example](https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
 
+[Timout in Jenkins config in Jenkins pipeline](https://stackoverflow.com/questions/38096004/how-to-add-a-timeout-step-to-jenkins-pipeline)
 
+[Do while in groovy](https://stackoverflow.com/questions/20921546/elegant-way-for-do-while-in-groovy)
