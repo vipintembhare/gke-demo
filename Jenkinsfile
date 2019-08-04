@@ -1,12 +1,13 @@
-pipeline {
+def label = "worker-${UUID.randomUUID().toString()}"
 
-  agent any
-
-  environment {
+podTemplate(label: label, containers: [
+ containerTemplate(name: 'git', image: 'alpine/git', ttyEnabled: true, command: 'cat'),
+  containerTemplate(name: 'terrform', image: 'hashicorp/terraform', ttyEnabled: true, command: 'cat')
+ 
+],
+) {
+  node(label) {
     SVC_ACCOUNT_KEY = credentials('terraform-auth')
-  }
-
-  stages {
 
     stage('Checkout') {
       steps {
@@ -40,7 +41,3 @@ pipeline {
         }
       }
     }
-
-  } 
-
-}
