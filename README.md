@@ -89,6 +89,15 @@ Google Kubernetes Demo with TerraForm
      
      withDockerServer
      https://stackoverflow.com/questions/43863595/jenkins-pipeline-docker-withserver-does-not-execute-docker-commands-on-rem
+     
+     Kubernetes log, User “system:serviceaccount:default:default” cannot get services in the namespace
+     https://stackoverflow.com/questions/47973570/kubernetes-log-user-systemserviceaccountdefaultdefault-cannot-get-services
+     
+     Jenkins Pipeline docker.build() gives error '“docker build” requires exactly 1 argument(s)'
+     https://stackoverflow.com/questions/45998130/jenkins-pipeline-docker-build-gives-error-docker-build-requires-exactly-1-a
+     
+     Error: Invalid or corrupt jarfile /app.jar #2
+     https://github.com/spring-guides/gs-spring-boot-docker/issues/2
 
 # Reads
 [Creating GKE cluster with Terraform](https://medium.com/@timhberry/learn-terraform-by-deploying-a-google-kubernetes-engine-cluster-a29071d9a6c2)
@@ -173,3 +182,11 @@ Google Kubernetes Demo with TerraForm
 [CI CD with pipelines with Kubernetes](https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
 
 [Kubernetes - Jenkins slaves are offline](https://stackoverflow.com/questions/38486848/kubernetes-jenkins-plugin-slaves-always-offline)
+
+[Kubernetes CLI plugin - For Kubectl configuration](https://github.com/jenkinsci/kubernetes-cli-plugin/blob/master/README.md)
+
+[Kubernetes Plugin - For Jenkins slave podTemplete](https://github.com/jenkinsci/kubernetes-plugin/tree/master/examples)
+
+[Kubernetes CI CD example](https://akomljen.com/set-up-a-jenkins-ci-cd-pipeline-with-kubernetes/)
+
+
