@@ -55,6 +55,9 @@ Google Kubernetes Demo with TerraForm
       kubectl get deploy
 
       kubectl rollout status deployments hello-deploy
+      
+      To  get API server 
+      $(kubectl config view --minify | grep server | cut -f 2- -d ":" | tr -d " ")
    
   Linux
       
