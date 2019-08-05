@@ -38,7 +38,7 @@ podTemplate(label: label, containers: [
     stage('TF Apply') {
 
         container('terraform') {
-          sh 'terraform apply /gke-demo -input=false myplan'
+          sh 'terraform apply -input=false myplan'
         }
 
     }
