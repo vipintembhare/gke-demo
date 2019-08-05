@@ -1,9 +1,7 @@
 def label = "worker-${UUID.randomUUID().toString()}"
 
 podTemplate(label: label, containers: [
- containerTemplate(name: 'git', image: 'alpine/git', ttyEnabled: true, command: 'cat'),
   containerTemplate(name: 'terraform', image: 'hashicorp/terraform', ttyEnabled: true, command: 'cat')
- 
 ],
 ) {
   node(label) {
