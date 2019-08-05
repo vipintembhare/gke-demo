@@ -11,9 +11,11 @@ podTemplate(label: label, containers: [
 
     stage('Checkout') {
       steps {
-        checkout scm
-        sh 'mkdir -p creds'
-        sh 'echo $SVC_ACCOUNT_KEY | base64 -d > ./creds/serviceaccount.json'
+       container('git'){
+        sh 'git clone -b dev-cluster https://github.com/vipintembhare/gke-demo.git'
+        sh 'mkdir -p ./gke-demo/creds'
+        sh 'echo $SVC_ACCOUNT_KEY | base64 -d > ./gke-demo/creds/serviceaccount.json'
+       }
       }
     }
 
