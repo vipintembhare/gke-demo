@@ -175,6 +175,8 @@ Google Kubernetes Demo with TerraForm
 
 [Jenkins] (https://devopscube.com/jenkins-master-build-slaves-docker-container/)
 
+[Credentials binding](https://jenkins.io/doc/pipeline/steps/credentials-binding/)
+
 # Helm and Kubernetes in Jenkins
 [Docker-in-Docker on Kubernetes](https://applatix.com/case-docker-docker-kubernetes-part/)
 
@@ -196,3 +198,5 @@ Google Kubernetes Demo with TerraForm
 [Timout in Jenkins config in Jenkins pipeline](https://stackoverflow.com/questions/38096004/how-to-add-a-timeout-step-to-jenkins-pipeline)
 
 [Do while in groovy](https://stackoverflow.com/questions/20921546/elegant-way-for-do-while-in-groovy)
+
+credentials 
