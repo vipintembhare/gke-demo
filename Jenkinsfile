@@ -14,7 +14,7 @@ podTemplate(label: label, containers: [
     //   container('git'){
         checkout scm
         sh 'mkdir -p ./creds'
-        sh 'echo $SVC_ACCOUNT_KEY | base64 -d > ./creds/serviceaccount.json'
+        sh 'echo "$SVC_ACCOUNT_KEY" | base64 -d > ./creds/serviceaccount.json'
         sh 'cat ./creds/serviceaccount.json'
     //   }
 
