@@ -200,3 +200,4 @@ Google Kubernetes Demo with TerraForm
 [Do while in groovy](https://stackoverflow.com/questions/20921546/elegant-way-for-do-while-in-groovy)
 
 [Image pull back issue] (https://stackoverflow.com/questions/34848422/how-to-debug-imagepullbackoff)
+[GKE to authenticate with GCR](https://hackernoon.com/today-i-learned-pull-docker-image-from-gcr-google-container-registry-in-any-non-gcp-kubernetes-5f8298f28969)
