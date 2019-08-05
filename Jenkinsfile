@@ -5,32 +5,24 @@ podTemplate(label: label, containers: [
 ],
 ) {
   node(label) {
-    environment {
-    def SVC_ACCOUNT_KEY = credentials('terraform-auth')
-  }
-
+   
     stage('Checkout') {
 
-    //   container('git'){
         checkout scm
         sh 'mkdir -p ./creds'
-      withCredentials([string(credentialsId: 'terraform-auth', variable: 'TOKEN')]) {
-        sh '''
-          set +x
-          echo "$TOKEN" | base64 -d > ./creds/serviceaccount.json
-        '''
-      }
-        //sh 'echo "$SVC_ACCOUNT_KEY" | base64 -d > ./creds/serviceaccount.json'
-        sh 'cat ./creds/serviceaccount.json'
-    //   }
-
+        withCredentials([string(credentialsId: 'terraform-auth', variable: 'TOKEN')]) {
+          sh '''
+            set +x
+            echo "$TOKEN" | base64 -d > ./creds/serviceaccount.json
+          '''
+        }
     }
 
     stage('TF Plan') {
 
         container('terraform') {
           sh 'terraform init'
-          sh 'terraform plan -out myplan /gke-demo'
+          sh 'terraform plan -out myplan'
         
     
     }
