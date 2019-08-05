@@ -5,7 +5,9 @@ podTemplate(label: label, containers: [
 ],
 ) {
   node(label) {
-    def SVC_ACCOUNT_KEY = credentials('terraform-auth')
+    environment {
+    SVC_ACCOUNT_KEY = credentials('terraform-auth')
+  }
 
     stage('Checkout') {
 
