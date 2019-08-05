@@ -170,7 +170,8 @@ Google Kubernetes Demo with TerraForm
 [Docker global tool use](https://support.cloudbees.com/hc/en-us/articles/230922468-Pipeline-I-would-like-to-use-Docker-CLI-inside-of-a-Pipeline-job)
 
 [Authenticating with Google Cloud Container Registry](https://cloud.google.com/container-registry/docs/advanced-authentication)
-  [Using plug-in](https://stackoverflow.com/questions/45800883/jenkins-pipeline-build-with-docker-google-registry-and-google-auth-plugin)
+ [Main Article](https://medium.com/google-cloud/how-to-push-docker-image-to-google-container-registry-gcr-through-jenkins-job-52b9d5ce9f7f)
+ [Using plug-in](https://stackoverflow.com/questions/45800883/jenkins-pipeline-build-with-docker-google-registry-and-google-auth-plugin)
 
 [Jenkins] (https://devopscube.com/jenkins-master-build-slaves-docker-container/)
 
