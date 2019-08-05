@@ -43,3 +43,5 @@ podTemplate(label: label, containers: [
         }
       }
     }
+  }
+}
