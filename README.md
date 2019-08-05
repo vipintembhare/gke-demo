@@ -199,4 +199,4 @@ Google Kubernetes Demo with TerraForm
 
 [Do while in groovy](https://stackoverflow.com/questions/20921546/elegant-way-for-do-while-in-groovy)
 
-credentials 
+[Image pull back issue] (https://stackoverflow.com/questions/34848422/how-to-debug-imagepullbackoff)
