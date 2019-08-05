@@ -14,7 +14,7 @@ podTemplate(label: label, containers: [
     //   container('git'){
         checkout scm
         sh 'mkdir -p ./creds'
-      withCredentials([string(credentialsId: 'mytoken', variable: 'TOKEN')]) {
+      withCredentials([string(credentialsId: 'terraform-auth', variable: 'TOKEN')]) {
         sh '''
           set +x
           echo "$SVC_ACCOUNT_KEY" | base64 -d > ./creds/serviceaccount.json
