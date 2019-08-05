@@ -17,7 +17,7 @@ podTemplate(label: label, containers: [
       withCredentials([string(credentialsId: 'terraform-auth', variable: 'TOKEN')]) {
         sh '''
           set +x
-          echo "$SVC_ACCOUNT_KEY" | base64 -d > ./creds/serviceaccount.json
+          echo "$TOKEN" | base64 -d > ./creds/serviceaccount.json
         '''
       }
         //sh 'echo "$SVC_ACCOUNT_KEY" | base64 -d > ./creds/serviceaccount.json'
